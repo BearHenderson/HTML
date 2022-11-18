@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.box{
+    height: 250px;
+    width: 600px;
+    margin: 40px;
+    border: 4px solid black;
+    display: inline;
+}
+.top-row{
+    height: 100px;
+    width: 550px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.left, .right{
+    height: 100px;
+    width: 175px;
+    margin: 10px;
+}
+.mid{
+    height: 100px;
+    width: 175px;
+    margin: 10px;
+}
+#count{
+    font-weight: bolder;
+    font-size: larger;
+}
+.like{
+    height: 40px;
+    width: 70px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    background-color: goldenrod;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
+.bottom-row{
+    height: 100px;
+    width: 550px;
+    margin: 10px;
+}

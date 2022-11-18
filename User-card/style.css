@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    .container{ 
+        max-width: 1270px;
+        margin: 0px auto;
+        box-sizing: border-box;
+        margin: 300px;
+    }
+    #card{
+        width: 700px;
+        height: 300px;
+        border: 5px solid gray;
+        margin: 200px;
+    }
+    .box-1{
+        width: 700px;
+        height: 100px;
+        background-color: aqua;
+    }
+    img.user{
+        width: 100px;
+        height: 60px;
+        border-radius: 50%;
+        border: 5px;
+    }
